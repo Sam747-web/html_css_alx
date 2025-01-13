@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webpage Header</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+  <header>
+    <div class="hero">
+      <div class="hero-content">
+        <h1>Headphones</h1>
+        <p>What we do.</p>
+        <a href="#call-to-action" class="cta-button">Call to Action</a>
+      </div>
+    </div>
+  </header>
+</body>
+</html>

@@ -1,0 +1,7 @@
+/my-webpage
+  /assets
+    /images
+      desktop-image.jpg
+      mobile-image.jpg
+  index.html
+  styles.css
