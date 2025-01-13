@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webpage Header</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="holberton_icons.css">
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Variables for easy maintenance */
+  :root {
+    --primary-color: #FF6565; 
+    --max-width: 1000px;
+    --font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('assets/images/desktop-image.jpg'); /* Desktop image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    max-width: var(--max-width);
+    width: 100%;
+  }
+  
+  .hero-content {
+    max-width: 900px;
+  }
+  
+  /* Call to Action Button */
+  .cta-button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  
+  .cta-button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Mobile Styles */
+  @media screen and (max-width: 480px) {
+    header {
+      background-image: url('assets/images/mobile-image.jpg'); /* Mobile image */
+      height: 100vh;
+    }
+    
+    .hero {
+      padding: 15px;
+    }
+  
+    .hero h1 {
+      font-size: 1.5rem;
+    }
+  
+    .cta-button {
+      font-size: 1rem;
+      padding: 8px 15px;
+    }
+  }
+<body>
+  <header>
+    <div class="hero">
+      <div class="hero-content">
+        <h1>Headphones</h1>
+        <p>What we do.</p>
+        <a href="#call-to-action" class="cta-button">Call to Action</a>
+      </div>
+    </div>
+  </header>
+</body>
+</html>
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #555;
+  background: #fff;
+}
+h1 {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+small {
+  font-size: .66666667em;
+}
+a {
+  color: #e74c3c;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  box-shadow: 0 1px #e74c3c;
+}
+.bshadow0, input {
+  box-shadow: inset 0 -2px #e7e7e7;
+}
+input:hover {
+  box-shadow: inset 0 -2px #ccc;
+}
+input, fieldset {
+  font-family: sans-serif;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+input {
+  color: inherit;
+  line-height: 1.5;
+  height: 1.5em;
+  padding: .25em 0;
+}
+input:focus {
+  outline: none;
+  box-shadow: inset 0 -2px #449fdb;
+}
+.glyph {
+  font-size: 16px;
+  width: 15em;
+  padding-bottom: 1em;
+  margin-right: 4em;
+  margin-bottom: 1em;
+  float: left;
+  overflow: hidden;
+}
+.liga {
+  width: 80%;
+  width: calc(100% - 2.5em);
+}
+.talign-right {
+  text-align: right;
+}
+.talign-center {
+  text-align: center;
+}
+.bgc1 {
+  background: #f1f1f1;
+}
+.fgc1 {
+  color: #999;
+}
+.fgc0 {
+  color: #000;
+}
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.mvm {
+  margin-top: .75em;
+  margin-bottom: .75em;
+}
+.mtn {
+  margin-top: 0;
+}
+.mtl, .mal {
+  margin-top: 1.5em;
+}
+.mbl, .mal {
+  margin-bottom: 1.5em;
+}
+.mal, .mhl {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+.mhmm {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.mls {
+  margin-left: .25em;
+}
+.ptl {
+  padding-top: 1.5em;
+}
+.pbs, .pvs {
+  padding-bottom: .25em;
+}
+.pvs, .pts {
+  padding-top: .25em;
+}
+.unit {
+  float: left;
+}
+.unitRight {
+  float: right;
+}
+.size1of2 {
+  width: 50%;
+}
+.size1of1 {
+  width: 100%;
+}
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.hidden-true {
+  display: none;
+}
+.textbox0 {
+  width: 3em;
+  background: #f1f1f1;
+  padding: .25em .5em;
+  line-height: 1.5;
+  height: 1.5em;
+}
+#testDrive {
+  display: block;
+  padding-top: 24px;
+  line-height: 1.5;
+}
+.fs0 {
+  font-size: 16px;
+}
+.fs1 {
+  font-size: 32px;
+}
+<section id="what-we-do">
+  <div class="container">
+    <h2>What we do...</h2>
+    <div class="services">
+      <div class="service">
+        <i class="icon-class-name"></i> <!-- Replace "icon-class-name" with the actual class from the demo -->
+        <h3>Service 1</h3>
+        <p>Short description of Service 1.</p>
+      </div>
+      <div class="service">
+        <i class="icon-class-name"></i>
+        <h3>Service 2</h3>
+        <p>Short description of Service 2.</p>
+      </div>
+      <div class="service">
+        <i class="icon-class-name"></i>
+        <h3>Service 3</h3>
+        <p>Short description of Service 3.</p>
+      </div>
+    </div>
+  </div>
+</section>
+/* General Styles */
+#what-we-do {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+#what-we-do h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+#what-we-do .services {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#what-we-do .service {
+  max-width: 300px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+#what-we-do .service i {
+  font-size: 3rem;
+  color: var(--primary-color); /* Use the primary color variable */
+  margin-bottom: 15px;
+}
+
+#what-we-do .service h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#what-we-do .service p {
+  font-size: 1rem;
+  color: #666;
+}
+
